@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* background */
+
+.container {
+  background-image: url("portpics/05-2.jpg");
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input:focus{
+   border: transparent;
+}
+
+.header{
+	text-transform: uppercase;
+	color:white;
+	font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size : 80px;
+	position:relative;
+	padding: 30px 0 25px 0;
+	writing-mode: vertical-rl;
+text-orientation: upright;
+	
+	}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  float:right;
+  align-content: center;
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, sans-serif;
+   font-weight:bold;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  text-decoration: line-through;}
+
+.topnav a.active {
+  text-decoration-color:none;
+  color: white;
+ 
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+}
